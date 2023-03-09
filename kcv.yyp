@@ -6,18 +6,13 @@
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":4,},
     {"id":{"name":"tSand","path":"tilesets/tSand/tSand.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":2,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
     {"id":{"name":"tStone","path":"tilesets/tStone/tStone.yy",},"order":1,},
     {"id":{"name":"sSand","path":"sprites/sSand/sSand.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
-<<<<<<< HEAD
     {"name":"macOS","path":"options/mac/options_mac.yy",},
-=======
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
->>>>>>> 1a9757945ea77a07ab2e60445b052ef528a96411
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
