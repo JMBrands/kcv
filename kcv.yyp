@@ -5,7 +5,9 @@
   "resources": [
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":4,},
     {"id":{"name":"tSand","path":"tilesets/tSand/tSand.yy",},"order":0,},
+    {"id":{"name":"oWallCollision","path":"objects/oWallCollision/oWallCollision.yy",},"order":0,},
     {"id":{"name":"tStone","path":"tilesets/tStone/tStone.yy",},"order":1,},
+    {"id":{"name":"sWallCollision","path":"sprites/sWallCollision/sWallCollision.yy",},"order":15,},
     {"id":{"name":"sSand","path":"sprites/sSand/sSand.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
