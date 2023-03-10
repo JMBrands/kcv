@@ -4,9 +4,11 @@
   "name": "kcv",
   "resources": [
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":1,},
+    {"id":{"name":"slideTransition","path":"scripts/slideTransition/slideTransition.yy",},"order":0,},
     {"id":{"name":"tSand","path":"tilesets/tSand/tSand.yy",},"order":0,},
     {"id":{"name":"oWallCollision","path":"objects/oWallCollision/oWallCollision.yy",},"order":0,},
     {"id":{"name":"tStone","path":"tilesets/tStone/tStone.yy",},"order":1,},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":3,},
     {"id":{"name":"sWallCollision","path":"sprites/sWallCollision/sWallCollision.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":2,},
