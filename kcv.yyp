@@ -6,12 +6,8 @@
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":1,},
     {"id":{"name":"slideTransition","path":"scripts/slideTransition/slideTransition.yy",},"order":0,},
     {"id":{"name":"tSand","path":"tilesets/tSand/tSand.yy",},"order":0,},
-<<<<<<< HEAD
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
-=======
-    {"id":{"name":"oWallCollision","path":"objects/oWallCollision/oWallCollision.yy",},"order":0,},
->>>>>>> f7f573098bd5bc3088d5635ac2bd9b9006c1fde5
     {"id":{"name":"tStone","path":"tilesets/tStone/tStone.yy",},"order":1,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":3,},
     {"id":{"name":"sWallCollision","path":"sprites/sWallCollision/sWallCollision.yy",},"order":3,},
@@ -22,11 +18,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
-<<<<<<< HEAD
     {"name":"macOS","path":"options/mac/options_mac.yy",},
-=======
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
->>>>>>> f7f573098bd5bc3088d5635ac2bd9b9006c1fde5
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
