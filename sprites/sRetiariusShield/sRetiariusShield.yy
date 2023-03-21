@@ -29,6 +29,8 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b09f4489-e35f-4db4-baa4-a986ba625e73",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ec27299-15f3-470d-b899-c2a0c3d611fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33690e90-9dcd-4524-be4c-48461ebd278b",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a049ee4-1596-4f6e-8f26-95743107b184",},
   ],
   "sequence": {
@@ -41,13 +43,15 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 2.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0d320928-1a15-41cb-a785-edcc2d651c3f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b09f4489-e35f-4db4-baa4-a986ba625e73","path":"sprites/sRetiariusShield/sRetiariusShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"aefc2fd5-54e6-4001-b3ea-955decdd3175","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a049ee4-1596-4f6e-8f26-95743107b184","path":"sprites/sRetiariusShield/sRetiariusShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1b5cd33f-d3e4-4803-a60d-26651fdd51e7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ec27299-15f3-470d-b899-c2a0c3d611fe","path":"sprites/sRetiariusShield/sRetiariusShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9733ff34-5ffb-41d0-9c14-422a513fd5f0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33690e90-9dcd-4524-be4c-48461ebd278b","path":"sprites/sRetiariusShield/sRetiariusShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aefc2fd5-54e6-4001-b3ea-955decdd3175","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a049ee4-1596-4f6e-8f26-95743107b184","path":"sprites/sRetiariusShield/sRetiariusShield.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
