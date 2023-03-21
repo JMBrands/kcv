@@ -57,6 +57,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"background","folderPath":"folders/Objects/background.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bases","folderPath":"folders/Objects/bases.yy","order":10,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"menu","folderPath":"folders/Objects/menu.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"murmillo","folderPath":"folders/Objects/murmillo.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Objects/player.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"retiarius","folderPath":"folders/Objects/retiarius.yy","order":7,},
@@ -75,7 +76,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tilesets","folderPath":"folders/Sprites/tilesets.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"menu","folderPath":"folders/Objects/menu.yy","order":13,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

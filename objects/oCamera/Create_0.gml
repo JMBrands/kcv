@@ -18,6 +18,6 @@ buff = 32;
 
 
 
-
+bglayer = layer_get_id("Background");
 
 

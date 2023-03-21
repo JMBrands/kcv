@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (oGame.state == GAME_STATES.PLAY) {
 	var move = sign(oPlayer.x-x);
-
+	
 	hsp = clamp(move * walksp,-15, 15);
 	key_jump = (sign(y-8-oPlayer.y) == 1)&&!place_free(x+hsp, y);
 
@@ -46,6 +46,10 @@ if (oGame.state == GAME_STATES.PLAY) {
 	}
 	x += hsp;
 	y += vsp;
+	if ((abs(oPlayer.x-x) < 16) && (abs(oPlayer.y-y) < 8)) {
+		alarm[0] = 1;
+		//alarm[0] = attack event 
+	}
 } else {
 	image_speed = 0;
 }
