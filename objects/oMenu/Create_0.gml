@@ -10,7 +10,7 @@ key_left = false;
 key_right = false;
 key_up = false;
 key_down = false;
-
-
+classes = ["retiarius","murmillo"];
+class = "";
 
 

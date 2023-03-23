@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (oGame.state == GAME_STATES.PLAY) {
-	var move = sign(oPlayer.x-x);
-	
+	dir = 1;
+	key_jump = false
+	if (abs(oPlayer.x-x)<=64) {
+		var move = sign(oPlayer.x-x);
+		key_jump = (sign(y-8-oPlayer.y) == 1)&&!place_free(x+hsp, y);
+	} else var move = sign(dir);
 	hsp = clamp(move * walksp,-15, 15);
-	key_jump = (sign(y-8-oPlayer.y) == 1)&&!place_free(x+hsp, y);
-
 	vsp = clamp(vsp + grv,-15,15);
 	if !place_free(x+hsp, y) {
 	
@@ -13,6 +15,7 @@ if (oGame.state == GAME_STATES.PLAY) {
 			x += sign(hsp);
 		}
 		hsp = 0;
+		dir = -dir;
 	}
 
 
@@ -46,9 +49,11 @@ if (oGame.state == GAME_STATES.PLAY) {
 	}
 	x += hsp;
 	y += vsp;
-	if ((abs(oPlayer.x-x) < 16) && (abs(oPlayer.y-y) < 8)) {
-		alarm[0] = 1;
-		//alarm[0] = attack event 
+	if ((abs(oPlayer.x-x) < 16) && (abs(oPlayer.y-y) < 8) && (!cooldown)) {
+		cooldown = true;
+		alarm_set(0,1);
+		alarm_set(1,60);
+		//alarm[0] = attack event , alarm[1] = attack countdown
 	}
 } else {
 	image_speed = 0;

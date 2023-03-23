@@ -23,5 +23,10 @@ if (oGame.state == GAME_STATES.PAUSE) {
 	draw_line(w*0.1*(posx+0.5),h*0.1*posy,w*0.1*(posx+0.5),h*0.1*(posy+1));
 	draw_circle(w*0.1*(posx+0.5),h*0.1*(posy+0.5),16,true);
 	posx = clamp(posx+(key_right-key_left)/100,1,8);
-	posy = clamp(posy+(key_down-key_up)/100,1,8);
+	posy = clamp(posy+(key_down-key_up)/100*0,1,8);
+	/*
+	draw_set_color(c_fuchsia);
+	draw_rectangle(w*.15,h*.15,w*.475,h*.85,false);
+	draw_rectangle(w*.525,h*.15,w*.85,h*.85,false);
+	*/
 }
