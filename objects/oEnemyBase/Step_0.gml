@@ -5,10 +5,15 @@ if (oGame.state == GAME_STATES.PLAY) {
 	key_jump = false
 	if (abs(oPlayer.x-x)<=64) {
 		var move = sign(oPlayer.x-x);
-		key_jump = (sign(y-8-oPlayer.y) == 1)&&!place_free(x+hsp, y);
+		hsp = clamp(move * walksp,-15, 15);
+		key_jump = (sign(y-8-oPlayer.y) == 1)&&!place_free(x+sign(hsp), y);
 	} else var move = sign(dir);
 	hsp = clamp(move * walksp,-15, 15);
 	vsp = clamp(vsp + grv,-15,15);
+	if place_meeting(x,y,oRetiariusNet) {
+		hsp /=8;
+		vsp /=4;
+	}
 	if !place_free(x+hsp, y) {
 	
 		while (place_free(x + sign(hsp), y)) {

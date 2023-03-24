@@ -28,10 +28,10 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cc175ad-621b-4fd3-96e8-057dbbb396ee",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71a88f19-d177-406a-bc5d-83163ec59d1d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d84d66ed-e528-435c-bf81-f561ec35e74f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6abfd3b3-c65f-464e-838d-1a84073ca6b0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1acdee12-f33e-4149-8c27-ec9dd88376a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e894aa91-5d1d-4dc0-a8da-bec682bbd35d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f588d53-8c28-4880-b346-c1784495c291",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94bfe288-5363-49dc-b07a-194bb3f300a7",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -48,10 +48,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7935b8cd-c59e-4830-ab90-676aaac83e6e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2cc175ad-621b-4fd3-96e8-057dbbb396ee","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1b1174ae-06cd-432b-b39c-e7f1a498152c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71a88f19-d177-406a-bc5d-83163ec59d1d","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"cfc8485d-a73e-48bb-8c11-9131aa0388f9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d84d66ed-e528-435c-bf81-f561ec35e74f","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7742f2cd-2535-4c05-a73c-b30d63991528","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6abfd3b3-c65f-464e-838d-1a84073ca6b0","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eeab3388-4c16-4e32-acd8-7f894a344ba2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1acdee12-f33e-4149-8c27-ec9dd88376a1","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8cd91660-b4cc-4c89-adba-b85d835a1c34","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e894aa91-5d1d-4dc0-a8da-bec682bbd35d","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6aef8bbd-0cae-408d-aeec-158add8f6d96","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f588d53-8c28-4880-b346-c1784495c291","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dd69cc4d-de51-4508-986f-8c4d14ff8553","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94bfe288-5363-49dc-b07a-194bb3f300a7","path":"sprites/sRetiariusWalk/sRetiariusWalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -70,7 +70,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b09b6d3-93a9-4c87-adc4-505faff42cb1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d715c554-7a07-4868-8fbb-3ff87f77ec79","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

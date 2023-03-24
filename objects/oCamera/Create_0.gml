@@ -14,7 +14,7 @@ yTo = ystart;
 shake_length = 60;
 shake_magnitude = 6;
 shake_remain = 0;
-buff = 32;
+buff = 4;
 
 
 

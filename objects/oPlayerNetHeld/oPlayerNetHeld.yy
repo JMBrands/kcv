@@ -1,20 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oPlayerNetHeld",
   "spriteId": {
-    "name": "sRetiariusWalk",
-    "path": "sprites/sRetiariusWalk/sRetiariusWalk.yy",
+    "name": "sRetiariusNetHeld",
+    "path": "sprites/sRetiariusNetHeld/sRetiariusNetHeld.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oFollowBase",
+    "path": "objects/oFollowBase/oFollowBase.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,12 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"owner","path":"objects/oFollowBase/oFollowBase.yy",},"objectId":{"name":"oFollowBase","path":"objects/oFollowBase/oFollowBase.yy",},"value":"oPlayer",},
+  ],
   "parent": {
     "name": "player",
     "path": "folders/Objects/player.yy",

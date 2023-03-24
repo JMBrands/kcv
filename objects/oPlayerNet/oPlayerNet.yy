@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oPlayerNet",
   "spriteId": {
-    "name": "sRetiariusWalk",
-    "path": "sprites/sRetiariusWalk/sRetiariusWalk.yy",
+    "name": "sRetiariusNet",
+    "path": "sprites/sRetiariusNet/sRetiariusNet.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

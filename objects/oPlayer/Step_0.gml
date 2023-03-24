@@ -13,6 +13,11 @@ if (oGame.state == GAME_STATES.PLAY) {
 	hsp = clamp(move * walksp,-15, 15);
 
 	vsp = clamp(vsp + grv,-15,15);
+	if place_meeting(x,y,oRetiariusNet) {
+		hsp /=8;
+		vsp /=4;
+	}
+
 	if !place_free(x+hsp, y) {
 	
 		while (place_free(x + sign(hsp), y)) {
@@ -29,8 +34,6 @@ if (oGame.state == GAME_STATES.PLAY) {
 		}
 		vsp = 0;
 	}
-
-
 	if place_free(x,y+1) {
 		sprite_index = sPlayer;
 		image_speed = 0;
