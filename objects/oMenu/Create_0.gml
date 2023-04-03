@@ -10,7 +10,13 @@ key_left = false;
 key_right = false;
 key_up = false;
 key_down = false;
-classes = ["retiarius","murmillo"];
-class = "";
-
+enum classes {
+	none,
+	retiarius,
+	murmillo,
+	provocator,
+	thraex,
+	hoplomachus,
+	num6,
+}
 

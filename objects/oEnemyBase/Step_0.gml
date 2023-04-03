@@ -60,6 +60,10 @@ if (oGame.state == GAME_STATES.PLAY) {
 		alarm_set(1,60);
 		//alarm[0] = attack event , alarm[1] = attack countdown
 	}
+	if hp <= 0 {
+		//TODO die animation
+		instance_destroy();
+	}
 } else {
 	image_speed = 0;
 }
