@@ -34,6 +34,7 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"walksprite","path":"objects/oEnemyBase/oEnemyBase.yy",},"objectId":{"name":"oEnemyBase","path":"objects/oEnemyBase/oEnemyBase.yy",},"value":"sRetiariusWalk",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"class","path":"objects/oEnemyBase/oEnemyBase.yy",},"objectId":{"name":"oEnemyBase","path":"objects/oEnemyBase/oEnemyBase.yy",},"value":"classes.retiarius",},
   ],
   "parent": {
     "name": "retiarius",

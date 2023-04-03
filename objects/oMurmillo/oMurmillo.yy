@@ -31,9 +31,10 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"walksprite","path":"objects/oEnemyBase/oEnemyBase.yy",},"objectId":{"name":"oEnemyBase","path":"objects/oEnemyBase/oEnemyBase.yy",},"value":"sMurmilloWalk",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"class","path":"objects/oEnemyBase/oEnemyBase.yy",},"objectId":{"name":"oEnemyBase","path":"objects/oEnemyBase/oEnemyBase.yy",},"value":"classes.murmillo",},
   ],
   "parent": {
-    "name": "murmillo",
-    "path": "folders/Objects/murmillo.yy",
+    "name": "enemy",
+    "path": "folders/Objects/enemy.yy",
   },
 }

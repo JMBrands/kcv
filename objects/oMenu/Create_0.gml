@@ -17,6 +17,6 @@ enum classes {
 	provocator,
 	thraex,
 	hoplomachus,
-	num6,
+	dimachaerus,
 }
-
+assetlayer = layer_get_id("assets");

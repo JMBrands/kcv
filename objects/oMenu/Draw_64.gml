@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 if (oGame.state == GAME_STATES.PAUSE) {
+	layer_set_visible(assetlayer, true);
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
@@ -33,4 +34,8 @@ if (oGame.state == GAME_STATES.PAUSE) {
 	draw_rectangle(w*.15,h*.525,w*.38,h*.85,false);
 	draw_rectangle(w*.42,h*.525,w*.62,h*.85,false);
 	draw_rectangle(w*.67,h*.525,w*.85,h*.85,false);
+	draw_set_alpha(1);
+} else {
+	layer_set_visible(assetlayer, false);
 }
+draw_healthbar(5,5,105,25,oPlayer.hp*5,c_gray,c_red,c_green,0,true,true);

@@ -3,6 +3,7 @@
 
 
 
+hp -= other.damage;
 
 
 

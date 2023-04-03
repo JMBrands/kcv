@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayerNetHeld",
+  "name": "oPlayerHeldBack",
   "spriteId": {
     "name": "sRetiariusNetHeld",
     "path": "sprites/sRetiariusNetHeld/sRetiariusNetHeld.yy",

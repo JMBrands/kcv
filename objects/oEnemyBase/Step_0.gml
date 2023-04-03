@@ -56,12 +56,11 @@ if (oGame.state == GAME_STATES.PLAY) {
 	y += vsp;
 	if ((abs(oPlayer.x-x) < 16) && (abs(oPlayer.y-y) < 8) && (!cooldown)) {
 		cooldown = true;
-		alarm_set(0,1);
-		alarm_set(1,60);
+		enemy_attack(class,id,1);
+		alarm[0] = 60
 		//alarm[0] = attack event , alarm[1] = attack countdown
 	}
 	if hp <= 0 {
-		//TODO die animation
 		instance_destroy();
 	}
 } else {

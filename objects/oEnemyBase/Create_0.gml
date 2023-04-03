@@ -11,7 +11,6 @@ grv = 0.1;
 def_walksp = 0.75;
 flash = 0;
 hitfrom = 0;
-hp = 255;
 def_jumpstr = 2;
 walksp = def_walksp;
 jumpstr = def_jumpstr;

@@ -7,7 +7,7 @@ if (oGame.state == GAME_STATES.PLAY) {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W")) || keyboard_check(vk_up);
-
+	attack = mouse_check_button_pressed(mb_left) || keyboard_check(ord("F"));
 	var move = key_right - key_left;
 
 	hsp = clamp(move * walksp,-15, 15);
@@ -56,10 +56,40 @@ if (oGame.state == GAME_STATES.PLAY) {
 	}
 	x += hsp;
 	y += vsp;
+	if (attack && !cooldown) {
+		player_attack(class,2);
+		cooldown = true;
+		alarm[0] = 30;
+	}
 	if hp <= 0 {
-		//TODO die animation
-		instance_destroy();
+		player_die();
 	}
 } else {
 	image_speed = 0;
+}
+switch (class) {
+	case classes.retiarius:
+		sprite_index = sRetiariusWalk
+		break;
+	case classes.hoplomachus:
+		sprite_index = sHoplomachusWalk
+		break;
+	case classes.murmillo:
+		sprite_index = sMurmilloWalk
+		break;
+	case classes.provocator:
+		sprite_index = sProvocatorComplete
+		break;/*
+	case classes.thraex:
+		sprite_index = sThraexComplete
+		break;
+	case classes.dimachaerus:
+		sprite_index = sDimachaerusComplete 
+		break;*/
+	case classes.none:
+		sprite_index = sRetiariusWalk
+		break;
+	default:
+		show_debug_message("how?");
+		break;
 }

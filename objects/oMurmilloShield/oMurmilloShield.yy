@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "murmillo",
-    "path": "folders/Objects/murmillo.yy",
+    "name": "enemy",
+    "path": "folders/Objects/enemy.yy",
   },
 }

@@ -4,7 +4,7 @@
 
 
 
-
+cooldown = false;
 
 
 
