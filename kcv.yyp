@@ -37,6 +37,7 @@
     {"id":{"name":"oPlayerArm","path":"objects/oPlayerArm/oPlayerArm.yy",},"order":1,},
     {"id":{"name":"oMurmillo","path":"objects/oMurmillo/oMurmillo.yy",},"order":0,},
     {"id":{"name":"sMurmilloAttack","path":"sprites/sMurmilloAttack/sMurmilloAttack.yy",},"order":3,},
+    {"id":{"name":"attackScript","path":"scripts/attackScript/attackScript.yy",},"order":1,},
     {"id":{"name":"sMurmilloShield","path":"sprites/sMurmilloShield/sMurmilloShield.yy",},"order":2,},
     {"id":{"name":"sEliteMWalk","path":"sprites/sEliteMWalk/sEliteMWalk.yy",},"order":2,},
     {"id":{"name":"oPlayerNet","path":"objects/oPlayerNet/oPlayerNet.yy",},"order":3,},

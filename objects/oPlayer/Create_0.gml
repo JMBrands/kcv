@@ -15,3 +15,8 @@ hp = 255;
 def_jumpstr = 2;
 walksp = def_walksp;
 jumpstr = def_jumpstr;
+
+spritewalk = sMurmilloWalk;
+spriteattack = sMurmilloAttack;
+spriteshield = sMurmilloShield;
+spritearm = sMurmilloArm;
