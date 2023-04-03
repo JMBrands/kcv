@@ -56,6 +56,10 @@ if (oGame.state == GAME_STATES.PLAY) {
 	}
 	x += hsp;
 	y += vsp;
+	if hp <= 0 {
+		//TODO die animation
+		instance_destroy();
+	}
 } else {
 	image_speed = 0;
 }
