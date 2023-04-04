@@ -13,13 +13,13 @@ switch (owner.class) {
 		sprite_index = sMurmilloArm;
 		break;
 	case classes.provocator:
-		sprite_index = sProvocatorComplete;
+		sprite_index = sProvocatorArm;
 		break;
 	case classes.retiarius:
 		sprite_index = sRetiariusArm;
 		break;
 	case classes.thraex:
-		sprite_index = false;
+		sprite_index = sThraexArm;
 		break;
 	default:
 		

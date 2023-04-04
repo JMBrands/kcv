@@ -69,25 +69,25 @@ if (oGame.state == GAME_STATES.PLAY) {
 }
 switch (class) {
 	case classes.retiarius:
-		sprite_index = sRetiariusWalk
+		sprite_index = sRetiariusWalk;
 		break;
 	case classes.hoplomachus:
-		sprite_index = sHoplomachusWalk
+		sprite_index = sHoplomachusWalk;
 		break;
 	case classes.murmillo:
-		sprite_index = sMurmilloWalk
+		sprite_index = sMurmilloWalk;
 		break;
 	case classes.provocator:
-		sprite_index = sProvocatorComplete
-		break;/*
+		sprite_index = sProvocatorComplete;
+		break;
 	case classes.thraex:
-		sprite_index = sThraexComplete
+		sprite_index = sThraexBody;
 		break;
 	case classes.dimachaerus:
-		sprite_index = sDimachaerusComplete 
-		break;*/
+		sprite_index = sDimachaerusBody;
+		break;
 	case classes.none:
-		sprite_index = sRetiariusWalk
+		sprite_index = sRetiariusWalk;
 		break;
 	default:
 		show_debug_message("how?");
