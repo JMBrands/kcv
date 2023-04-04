@@ -14,5 +14,5 @@ hitfrom = 0;
 def_jumpstr = 2;
 walksp = def_walksp;
 jumpstr = def_jumpstr;
-class =  classes.murmillo;
+class =  classes.retiarius;
 cooldown = false

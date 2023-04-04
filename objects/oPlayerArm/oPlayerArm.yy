@@ -27,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"owner","path":"objects/oFollowBase/oFollowBase.yy",},"objectId":{"name":"oFollowBase","path":"objects/oFollowBase/oFollowBase.yy",},"value":"oPlayer",},

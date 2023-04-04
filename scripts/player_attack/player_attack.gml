@@ -3,7 +3,7 @@
 function player_attack(class, damage){
 	switch (class) {
 		case classes.retiarius:
-			var atk = instance_create_layer(oPlayer.x,oPlayer.y,"player_1",oPPoke);
+			var atk = instance_create_layer(oPlayer.x+(10*oPlayer.image_xscale),oPlayer.y,"player_1",oPPoke);
 			break;
 		case classes.hoplomachus:
 			var atk = instance_create_layer(oPlayer.x,oPlayer.y,"player_1",oPPoke);
